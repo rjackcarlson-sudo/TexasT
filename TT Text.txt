@@ -1,0 +1,31 @@
+
+## Key Files to Implement (Priority Order)
+1. `src/data/loader.py` — Load & merge WTI + global production.
+2. `src/features/engineer.py` — Feature creation + selection.
+3. `src/models/train.py` — Base model training with evaluation.
+4. `src/llm/analyzer.py` — LLM prompt templates and calls.
+5. `app/app.py` — Full interactive UI (EDA, prediction form, ML output + LLM analysis).
+6. `README.md` — Setup, usage, deployment instructions.
+
+## Deployment
+- Local: `streamlit run app/app.py`
+- Cloud: Streamlit Community Cloud (connect GitHub repo).
+- Optional: Docker + Render / AWS / personal domain.
+
+## Learning & Professional Aspects
+- Demonstrates end-to-end ML engineering workflow.
+- Highlights linear algebra foundations (especially if using PyTorch deep models).
+- Hybrid system showing integration of numerical ML with LLM reasoning for real-world events.
+- Focused, maintainable, and extensible.
+
+## Next Steps (Iterative)
+- Populate skeleton files.
+- Implement data loading with global production.
+- Train base model.
+- Add LLM layer.
+- Polish and deploy the app.
+
+**Status**: Project in active development with Grok.  
+**Version**: Initial spec — June 2026.
+
+---
